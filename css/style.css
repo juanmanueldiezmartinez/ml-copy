@@ -1,0 +1,117 @@
+#logo {
+  height: 13vh;
+}
+.containerPago{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 80%;
+  margin-top: 20px;
+}
+.payment-data-section{
+  display: flex;
+  padding: 18px 29px;
+}
+.payment-data-subtitle {
+  font-size: 14px;
+}
+.payment-data-icon{
+  margin-right: 10px;
+}
+.payment-data-group{
+  border-left: 1px solid #ebebeb;
+}
+.navbar {
+  /* background-color: rgba(248, 249, 250, 0.7) !important; */
+  background-color: #fee600 !important;
+  height: 90px;
+}
+
+.slide-img {
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#slide1 {
+  background-image: url(../images/image1.jpg);
+}
+
+#slide2 {
+  background-image: url(../images/image3.jpg);
+}
+
+#slide3 {
+  background-image: url(../images/image4.jpg);
+}
+
+.parallax-header {
+  background-image: url(../images/textura1.jpg);
+  height: 20vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 36px;
+}
+
+.card-link {
+  color: black;
+}
+
+.card:hover {
+  border: 1px solid blue;
+}
+
+.card-img-top {
+  height: 40vh;
+  object-fit: contain;
+}
+.contenedorError{
+  display: grid;
+  place-content: center;
+  width: 50%;
+  background-image: url(../images/textura1.jpg);
+  height: 20vh;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  font-size: 36px;
+  color: red;
+}
+.col-producto{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#productos-container{
+  background-color: #ebebeb; 
+}
+.container-fluid{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ebebeb; 
+}
+#lista-container{
+  width: 100%;
+  background-color: #ebebeb; 
+}
+#comentarios{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: #ebebeb;
+  padding-top: 15px;
+}
+h1{
+  text-align: center;
+  background-color: #ebebeb;
+  margin-bottom: 0px;
+}
